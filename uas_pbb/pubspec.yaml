@@ -1,0 +1,41 @@
+name: uas_pbb
+description: A Flutter application with GetX for state management and routing.
+
+# Versi minimal Flutter SDK yang digunakan
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Package GetX untuk state management dan routing
+  get: ^4.6.5
+
+  # Tambahkan package lain jika diperlukan
+  google_fonts: ^4.0.3
+  flutter_svg: ^1.1.6
+  shared_preferences: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Tambahkan linting tools jika diperlukan
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Tambahkan asset yang akan digunakan
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  # Tambahkan font jika diperlukan
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
